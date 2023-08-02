@@ -1,0 +1,173 @@
+2023-07-23T17:34:54.674+0530 INFO build session factory
+2023-07-24T12:04:31.092+0530 INFO build session factory
+2023-07-24T12:04:32.735+0530 INFO >>>>>Hibernate Connection pooling<<<<<<<<<<<
+2023-07-24T12:04:32.736+0530 INFO .......Adding the customer.......
+
+2023-07-24T12:04:33.213+0530 INFO inserted customer: Priya
+2023-07-24T12:04:33.213+0530 INFO customer details: Customer [id=9, customer_name=Priya, customer_phone=82242, customer_email=priya@gmail.com]
+2023-07-24T12:04:33.220+0530 INFO Customer is entered and details updated..
+2023-07-24T12:04:33.307+0530 INFO This customer phone number is:82242
+2023-07-24T12:04:33.308+0530 INFO Customer phone number from DB is:867585
+2023-07-24T12:04:33.308+0530 INFO Customer phone number from DB is:867585
+2023-07-24T12:04:33.308+0530 INFO Customer phone number from DB is:984302
+2023-07-24T12:04:33.308+0530 INFO Customer phone number from DB is:962676
+2023-07-24T12:04:33.314+0530 INFO .......Adding the agents.......
+
+2023-07-24T12:04:33.316+0530 INFO inserted agent name: Poorani
+2023-07-24T12:04:33.316+0530 INFO Agent details: Agent [agent_id=4, agent_name=Poorani, agent_phone=******, agent_email=Poorani@gmail.com]
+2023-07-24T12:04:33.317+0530 INFO .......Updating the agent details in CallBackRequest table.......
+
+2023-07-24T12:04:33.318+0530 INFO Agent id :4Callback request ID:5
+2023-07-24T12:04:33.326+0530 INFO after the conversation with customer agent updating the status..
+2023-07-24T12:04:33.326+0530 INFO ......Updating the status in CallBackRequest table by Agent.......
+
+2023-07-24T12:04:33.326+0530 INFO Status updated in table:pending
+2023-07-24T12:04:33.328+0530 INFO .......Updating the Log table.......
+
+2023-07-24T12:04:33.329+0530 INFO Logs are added.. log id is:4
+2023-07-24T12:04:33.336+0530 INFO \n.......Records Saved Successfully To The Database.......
+2023-07-28T12:15:47.071+0530 INFO build session factory
+2023-07-28T12:15:48.814+0530 INFO >>>>>Hibernate Connection pooling<<<<<<<<<<<
+2023-07-28T12:15:48.817+0530 INFO .......Adding the customer.......
+
+2023-07-28T12:15:49.402+0530 INFO inserted customer: Priya
+2023-07-28T12:15:49.403+0530 INFO customer details: Customer [id=1, customer_name=Priya, customer_phone=82242, customer_email=priya@gmail.com]
+2023-07-28T12:15:49.408+0530 INFO Customer is entered and details updated..
+2023-07-28T12:15:49.492+0530 INFO This customer phone number is:82242
+2023-07-28T12:15:49.499+0530 INFO .......Adding the agents.......
+
+2023-07-28T12:15:49.502+0530 INFO inserted agent name: Poorani
+2023-07-28T12:15:49.502+0530 INFO Agent details: Agent [agent_id=1, agent_name=Poorani, agent_phone=******, agent_email=Poorani@gmail.com]
+2023-07-28T12:15:49.504+0530 INFO .......Updating the agent details in CallBackRequest table.......
+
+2023-07-28T12:15:49.504+0530 INFO Agent id :1Callback request ID:1
+2023-07-28T12:15:49.516+0530 INFO after the conversation with customer agent updating the status..
+2023-07-28T12:15:49.516+0530 INFO ......Updating the status in CallBackRequest table by Agent.......
+
+2023-07-28T12:15:49.517+0530 INFO Status updated in table:pending
+2023-07-28T12:15:49.518+0530 INFO .......Updating the Log table.......
+
+2023-07-28T12:15:49.521+0530 INFO Logs are added.. log id is:1
+2023-07-28T12:15:49.531+0530 INFO \n.......Records Saved Successfully To The Database.......
+2023-07-28T12:19:03.235+0530 INFO build session factory
+2023-07-28T12:19:04.786+0530 INFO >>>>>Hibernate Connection pooling<<<<<<<<<<<
+2023-07-28T12:19:04.788+0530 INFO .......Adding the customer.......
+
+2023-07-28T12:19:05.197+0530 INFO inserted customer: Priya
+2023-07-28T12:19:05.197+0530 INFO customer details: Customer [id=2, customer_name=Priya, customer_phone=82242, customer_email=priya@gmail.com]
+2023-07-28T12:19:05.203+0530 INFO Customer is entered and details updated..
+2023-07-28T12:19:05.277+0530 INFO This customer phone number is:82242
+2023-07-28T12:19:05.278+0530 INFO Customer phone number from DB is:82242
+2023-07-28T12:19:05.278+0530 INFO Customer phone number status for call back request is:pending
+2023-07-28T12:19:05.279+0530 INFO This customer is eligible to place call back request..
+2023-07-28T12:19:05.279+0530 INFO this customer is already requseted for callback.. so deleting this duplicate customer detail from customet table..
+2023-07-28T12:19:05.279+0530 INFO ....Deleting the Duplicated customer...
+2023-07-28T12:19:05.286+0530 INFO deleted customer since request is already placed: Priya
+2023-07-28T12:19:05.286+0530 INFO previous call is pending.. not taking up the request disconnect...
+2023-07-28T12:19:05.293+0530 INFO \n.......Records Saved Successfully To The Database.......
+2023-07-28T12:20:26.241+0530 INFO build session factory
+2023-07-28T12:20:27.551+0530 INFO >>>>>Hibernate Connection pooling<<<<<<<<<<<
+2023-07-28T12:20:27.553+0530 INFO .......Adding the customer.......
+
+2023-07-28T12:20:27.978+0530 INFO inserted customer: SivaKumar
+2023-07-28T12:20:27.979+0530 INFO customer details: Customer [id=3, customer_name=SivaKumar, customer_phone=975093, customer_email=priya@gmail.com]
+2023-07-28T12:20:27.985+0530 INFO Customer is entered and details updated..
+2023-07-28T12:20:28.088+0530 INFO This customer phone number is:975093
+2023-07-28T12:20:28.088+0530 INFO Customer phone number from DB is:82242
+2023-07-28T12:20:28.094+0530 INFO .......Adding the agents.......
+
+2023-07-28T12:20:28.096+0530 INFO inserted agent name: Poorani
+2023-07-28T12:20:28.097+0530 INFO Agent details: Agent [agent_id=2, agent_name=Poorani, agent_phone=******, agent_email=Poorani@gmail.com]
+2023-07-28T12:20:28.098+0530 INFO .......Updating the agent details in CallBackRequest table.......
+
+2023-07-28T12:20:28.098+0530 INFO Agent id :2Callback request ID:2
+2023-07-28T12:20:28.106+0530 INFO after the conversation with customer agent updating the status..
+2023-07-28T12:20:28.108+0530 INFO ......Updating the status in CallBackRequest table by Agent.......
+
+2023-07-28T12:20:28.108+0530 INFO Status updated in table:pending
+2023-07-28T12:20:28.110+0530 INFO .......Updating the Log table.......
+
+2023-07-28T12:20:28.112+0530 INFO Logs are added.. log id is:2
+2023-07-28T12:20:28.118+0530 INFO \n.......Records Saved Successfully To The Database.......
+2023-07-28T12:29:30.564+0530 INFO build session factory
+2023-07-28T12:29:32.213+0530 INFO >>>>>Hibernate Connection pooling<<<<<<<<<<<
+2023-07-28T12:29:32.215+0530 INFO .......Adding the customer.......
+
+2023-07-28T12:29:32.671+0530 INFO inserted customer: Nithyananda
+2023-07-28T12:29:32.671+0530 INFO customer details: Customer [id=4, customer_name=Nithyananda, customer_phone=121212, customer_email=priya@gmail.com]
+2023-07-28T12:29:32.677+0530 INFO Customer is entered and details updated..
+2023-07-28T12:29:32.759+0530 INFO This customer phone number is:121212
+2023-07-28T12:29:32.759+0530 INFO Customer phone number from DB is:82242
+2023-07-28T12:29:32.759+0530 INFO Customer phone number from DB is:975093
+2023-07-28T12:29:32.766+0530 INFO .......Adding the agents.......
+
+2023-07-28T12:29:32.769+0530 INFO inserted agent name: Poorani
+2023-07-28T12:29:32.770+0530 INFO Agent details: Agent [agent_id=3, agent_name=Poorani, agent_phone=******, agent_email=Poorani@gmail.com]
+2023-07-28T12:29:32.772+0530 INFO .......Updating the agent details in CallBackRequest table.......
+
+2023-07-28T12:29:32.772+0530 INFO Agent id :3Callback request ID:3
+2023-07-28T12:29:32.778+0530 INFO after the conversation with customer agent updating the status..
+2023-07-28T12:29:32.778+0530 INFO ......Updating the status in CallBackRequest table by Agent.......
+
+2023-07-28T12:29:32.778+0530 INFO Status updated in table:pending
+2023-07-28T12:29:32.780+0530 INFO .......Updating the Log table.......
+
+2023-07-28T12:29:32.782+0530 INFO Logs are added.. log id is:3
+2023-07-28T12:29:32.790+0530 INFO \n.......Records Saved Successfully To The Database.......
+2023-07-28T17:43:33.417+0530 INFO build session factory
+2023-07-28T17:43:35.154+0530 INFO >>>>>Hibernate Connection pooling<<<<<<<<<<<
+2023-07-28T17:43:35.156+0530 INFO .......Adding the customer.......
+
+2023-07-28T17:43:36.071+0530 INFO inserted customer: Jagan
+2023-07-28T17:43:36.071+0530 INFO customer details: Customer [id=5, customer_name=Jagan, customer_phone=757575, customer_email=jagan@gmail.com]
+2023-07-28T17:43:36.078+0530 INFO Customer is entered and details updated..
+2023-07-28T17:43:36.176+0530 INFO This customer phone number is:757575
+2023-07-28T17:43:36.176+0530 INFO Customer phone number from DB is:82242
+2023-07-28T17:43:36.176+0530 INFO Customer phone number from DB is:975093
+2023-07-28T17:43:36.176+0530 INFO Customer phone number from DB is:121212
+2023-07-28T17:43:36.184+0530 INFO .......Adding the agents.......
+
+2023-07-28T17:43:36.186+0530 INFO inserted agent name: Poorani
+2023-07-28T17:43:36.186+0530 INFO Agent details: Agent [agent_id=4, agent_name=Poorani, agent_phone=******, agent_email=Poorani@gmail.com]
+2023-07-28T17:43:36.188+0530 INFO .......Updating the agent details in CallBackRequest table.......
+
+2023-07-28T17:43:36.188+0530 INFO Agent id :4Callback request ID:4
+2023-07-28T17:43:36.199+0530 INFO after the conversation with customer agent updating the status..
+2023-07-28T17:43:36.199+0530 INFO ......Updating the status in CallBackRequest table by Agent.......
+
+2023-07-28T17:43:36.201+0530 INFO Status updated in table:pending
+2023-07-28T17:43:36.203+0530 INFO .......Updating the Log table.......
+
+2023-07-28T17:43:36.205+0530 INFO Logs are added.. log id is:4
+2023-07-28T17:43:36.212+0530 INFO \n.......Records Saved Successfully To The Database.......
+2023-07-31T21:36:27.331+0530 INFO build session factory
+2023-07-31T21:36:28.999+0530 INFO >>>>>Hibernate Connection pooling<<<<<<<<<<<
+2023-07-31T21:36:29.001+0530 INFO .......Adding the customer.......
+
+2023-07-31T21:36:29.427+0530 INFO inserted customer: Vinoth
+2023-07-31T21:36:29.427+0530 INFO customer details: Customer [id=35, customer_name=Vinoth, customer_phone=757575, customer_email=vinoth@gmail.com]
+2023-07-31T21:36:29.431+0530 INFO Customer is entered and details updated..
+2023-07-31T21:36:29.432+0530 INFO .......Updating the New number in Customer table.......
+
+2023-07-31T21:36:29.434+0530 INFO Status updated in table:999999
+2023-07-31T21:36:29.537+0530 INFO This customer phone number is:999999
+2023-07-31T21:36:29.538+0530 INFO Customer phone number from DB is:82242
+2023-07-31T21:36:29.538+0530 INFO Customer phone number from DB is:975093
+2023-07-31T21:36:29.538+0530 INFO Customer phone number from DB is:121212
+2023-07-31T21:36:29.538+0530 INFO Customer phone number from DB is:757575
+2023-07-31T21:36:29.538+0530 INFO Customer phone number from DB is:8675858583
+2023-07-31T21:36:29.546+0530 INFO .......Adding the agents.......
+
+2023-07-31T21:36:29.548+0530 INFO inserted agent name: Nirmala
+2023-07-31T21:36:29.548+0530 INFO Agent details: Agent [agent_id=5, agent_name=Nirmala, agent_phone=******, agent_email=nirmala@gmail.com]
+2023-07-31T21:36:29.550+0530 INFO .......Updating the agent details in CallBackRequest table.......
+
+2023-07-31T21:36:29.550+0530 INFO Agent id :5Callback request ID:6
+2023-07-31T21:36:29.553+0530 INFO after the conversation with customer agent updating the status..
+2023-07-31T21:36:29.553+0530 INFO ......Updating the status in CallBackRequest table by Agent.......
+
+2023-07-31T21:36:29.554+0530 INFO Status updated in table:completed
+2023-07-31T21:36:29.556+0530 INFO .......Updating the Log table.......
+
+2023-07-31T21:36:29.558+0530 INFO Logs are added.. log id is:5
+2023-07-31T21:36:29.564+0530 INFO \n.......Records Saved Successfully To The Database.......

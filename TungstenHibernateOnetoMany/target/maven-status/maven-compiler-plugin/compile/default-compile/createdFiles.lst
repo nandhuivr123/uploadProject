@@ -1,0 +1,7 @@
+com\tungsten\all\Customer.class
+com\tungsten\all\CallbackLogs.class
+com\tungsten\hibernaate\dao\Tungsten_DAO.class
+com\tungsten\all\App.class
+com\tungsten\HibernateUtil\HibernateUtil.class
+com\tungsten\all\CallbackRequests.class
+com\tungsten\all\Agent.class
